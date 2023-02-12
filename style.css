@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #05513c;
+    font-family: 'Lora', serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+header img {
+    display: block;
+    width: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article.promotion > h1 {
+    padding-top: 30vh;
+    text-shadow: rgb(201, 198, 178) 1px 0 10px;
+}
+
+article.promotion > p {
+    text-shadow: rgb(250, 248, 242) 1px 0 10px;
+}
+
+article.promotion {
+    background-image: url('images/misc/vadim-kaipov-8ZELrodSvTc-unsplash.jpg');
+    background-size: cover;
+    height: 36rem;
+    background-size: 1500px;
+    width: 100vw;
+}
+
+div.card-section {
+    margin: 4%;
+}
+
+div.card {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.card-img-top {
+    height: 19rem;
+    object-fit: cover;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 0.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.1);
+}
+
+.card-1 img {
+    object-position: 100% 0;
+}
+
+.footer img {
+    display: block;
+    width: 2rem;
+}
+
+.text-grey {
+    color: rgb(45 42 36);
+}
